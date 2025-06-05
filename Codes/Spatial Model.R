@@ -215,8 +215,6 @@ BYM_AR<- function(y,tamaño, theta){
         }
         uVecinasPromedio=uVecinasPromedio/ni[i]       # Finalmente, para tener el promedio, divido entre el número de vecinos.
         
-        #Definimos eps
-        eps=0.1
         
         #Calculamos lambda_u (ya está en el vector inicial/actual)
         lambda_u<-theta[33]
@@ -332,10 +330,6 @@ BYM_AR<- function(y,tamaño, theta){
         # Cálculo de yi
         yi<-y[i-16]     #pues a estas alturas la "i" ya pasó por las 16 primeras
         
-        # Cálculo de epsilon
-        eps=0.1
-        
-
         
         # Cálculo de a
         # Con la función optim
