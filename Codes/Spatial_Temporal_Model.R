@@ -115,7 +115,7 @@
 ################################################################################
 #                    2.   Definición de parámetros fijos
 ################################################################################
-# Para hacer simulación del modelo BYM, es necesario tener codificadas las relaciones 
+# Para hacer simulación del modelo BYM extendido, es necesario tener codificadas las relaciones 
 # de qué delegación es vecina de cuál delegación, para así poder calcular ciertos 
 # términos. 
 
